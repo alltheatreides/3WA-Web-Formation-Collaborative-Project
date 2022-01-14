@@ -16,7 +16,7 @@
         <legend>J'ai déjà un compte</legend>
         
         <label>Mon adresse email</label>
-        <input class="input" type="mail" name="mail"/><br>
+        <input class="input" type="mail" name="mail"/>
         
         <label>Mon mot de passe</label>
         <input class="input" type="password" name="password"/>
