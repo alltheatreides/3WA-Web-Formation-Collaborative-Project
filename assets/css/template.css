@@ -1,0 +1,217 @@
+/* ******************************* */
+/* NORMALIZING START */
+/* ******************************* */
+*, ::after, ::before {
+   box-sizing: border-box;
+   border: 0 solid #e2e8f0;
+}
+
+body {
+   line-height: 1.5;
+   font-size: 1.8rem;
+}
+
+html {
+   font-size: 62.5%;
+}
+
+img {
+   max-width: 100%;
+   width: auto;
+   /* pour ie */
+   height: auto;
+   -ms-interpolation-mode: bicubic;
+   /* lissage pour IE */
+   image-rendering: -webkit-optimize-contrast;
+   /* lissage pour Chrome au redimensionnement*/
+}
+
+blockquote, q {
+   quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+   content: '';
+   content: none;
+}
+
+table {
+   border-collapse: collapse;
+   border-spacing: 0;
+}
+
+/* ******************************* */
+/* NORMALIZING END */
+/* ******************************* */
+
+
+
+/* ******************************* */
+/* FONTS START */
+/* ******************************* */
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;700&display=swap');
+
+body {
+   font-family: 'Open Sans', sans-serif;
+}
+
+h1, h2, h3 {
+   font-family: 'Raleway', sans-serif;
+}
+
+/* ******************************* */
+/* FONTS END */
+/* ******************************* */
+
+
+
+/* ******************************* */
+/* GLOBAL THEME START */
+/* ******************************* */
+/* VARIABLES */
+:root {
+   /* LIGHT MODE */
+   /* General colors */
+   --backgroundColorLightMode: #eee;
+   --greyBgColorLightMode: #eee;
+
+   /* Background colors */
+   --headerBgColorLightMode: #0c6588;
+   --menuBgColorLightMode: #e2f7ff;
+   --mainBgColorLightMode: #fff;
+   --footerBgColorLightMode: #333;
+
+   /* Text colors */
+   --titleColorLightMode: #333;
+   --textColorLightMode: #555;
+   --headerTxtColorLightMode: #e2f7ff;
+   --footerTxtColorLightMode: #ddd;
+
+   /* Link colors */
+   --linkColorLightMode: #0c6588;   
+   --linkHoverColorLightMode: #000;
+
+   /* Border colors */
+   --borderSMColorLightMode: #666;
+   --borderMDColorLightMode: #555;
+   --borderLGColorLightMode: #444;
+
+
+   /* DARK MODE */   
+    /* General colors */
+   --backgroundColorDarkMode: #222;
+   --greyBgColorDarkMode: #444;
+
+   /* Background colors */
+   --headerBgColorDarkMode: #0c6588;
+   --menuBgColorDarkMode: #0c6588;
+   --mainBgColorDarkMode: #333;
+   --footerBgColorDarkMode: #333;
+
+   /* Text colors */
+   --titleColorDarkMode: #fff;
+   --textColorDarkMode: #ddd;
+
+   /* Link colors */
+   --linkColorDarkMode: #e2f7ff;   
+   --linkHoverColorDarkMode: #fff;
+
+}
+
+/* Light mode */
+h1 {
+   color: var(--titleColorLightMode);
+}
+
+/* Dark mode management */
+header.dark {
+   background-color: var(--headerBgColorDarkMode);
+}
+body.dark {
+   background-color: var(--backgroundColorDarkMode);
+}
+main.dark {
+   background-color: var(--mainBgColorDarkMode);
+}
+footer.dark {
+   background-color: var(--footerBgColorDarkMode);
+}
+h1.dark {
+   color: var(--titleColorDarkMode);
+}
+h2.dark {
+   color: var(--titleColorDarkMode);
+}
+h3.dark {
+   color: var(--titleColorDarkMode);
+}
+:link.dark {
+   color: var(--linkColorDarkMode);
+}
+:link:hover.dark {
+   color: var(--linkHoverColorDarkMode);
+}
+link.dark {
+   color: var(--linkColorDarkMode);
+}
+link:hover.dark {
+   color: var(--linkHoverColorDarkMode);
+}
+
+body {
+   font-size: 1.5rem; 
+   line-height: 2.0rem;
+   background-color: var(--backgroundColorLightMode);
+}
+
+h1 {
+   font-size: 3.6rem; 
+}
+h2 {
+   font-size: 2.4rem; 
+}
+h3 {
+   font-size: 1.8rem; 
+}
+
+/* ******************************* */
+/* GLOBAL THEME END */
+/* ******************************* */
+
+
+
+/* ******************************* */
+/* GENERIC CLASSES START */
+/* ******************************* */
+
+.container {
+   width: 1140px;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+/* ******************************* */
+/* GENERIC CLASSES END */
+/* ******************************* */
+
+
+
+/* ******************************* */
+/* RESPONSIVE BREAK POINTS START */
+/* ******************************* */
+/* Desktop first */
+
+@media screen and (max-width: 480px) {
+	
+}
+@media screen and (max-width: 960px) {
+	
+}
+
+
+/* ******************************* */
+/* RESPONSIVE BREAK POINTS END */
+/* ******************************* */
