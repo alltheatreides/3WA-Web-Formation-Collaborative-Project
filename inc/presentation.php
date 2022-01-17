@@ -1,4 +1,4 @@
-<?php
+
 <section class "presentation">
     <h2>Présentation</h2>
     <p class="keywords">
@@ -69,34 +69,4 @@
 
         </div>
 </section>
-<!DOCTYPE html>
-<html lang="fr">
-
-<head>
-    <meta charset="utf-8">
-
-    <!--fontawesome-->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
-
-    <link rel="stylesheet" href="../css/presentation.css">
-
-</head>
-<section class "presentation">
-    <h2>Présentation</h2>
-    <p class="keywords">
-        <span>1920 x 1080 pixels</span>
-        <span>7 ms</span>
-        <span>format large 16/9</span>
-        <span>Dalle IPS</span>
-        <span>HDMI</span>
-        <span>VGA</span>
-        <span>Noir</span> 
-    </p>
-
-<div class = "logo">
-<img src = "../img/brand-1/logo-lg.png"/>
-</div>
-</section>
-
-?>
 
