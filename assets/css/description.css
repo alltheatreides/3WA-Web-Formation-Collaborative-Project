@@ -1,0 +1,93 @@
+.container {
+    background-color:var(--mainBgColorLightMode);
+}
+
+
+h2,
+h3 {
+    display: flex;
+  
+}
+
+
+h2::after,
+h3::after {
+    content: "";
+    height: 24px;
+    flex: 1;
+    margin-left: 1em;
+    background-image: radial-gradient(#eee 3px, transparent 4px);
+    background-size: 24px 24px;
+}
+
+article {
+    overflow: auto;
+}
+
+img {
+    border: 0.1rem solid var(--backgroundColorLightMode);
+}
+
+
+.table {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2rem;
+    padding: 1rem;
+    font-size: 1.5rem
+}
+
+table {
+    border: 0.1rem solid black;
+    border-collapse: collapse;
+    width: 67%;
+
+}
+
+
+td {
+    border-bottom: 0.1rem solid black;
+    width: 50%
+}
+
+.left {
+    float: left;
+    width: 48%;
+}
+
+.right {
+    float: right;
+    width: 48%;
+}
+
+
+.clear {
+    clear: both;
+
+}
+
+
+/*TABLETTE/////////*/
+
+@media (max-width: 960px) {
+ 
+.left {
+    float:inherit;
+    width: 100%;
+}
+
+.right {
+    float:inherit;
+    width: 100%;
+}   
+    
+    
+.table {
+    display:inherit;
+    width:100%;
+    margin: 1rem;
+}    
+
+    
+}
