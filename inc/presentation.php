@@ -17,13 +17,13 @@
     </div>
     <div class="tv">
         <div class="slider">
-            <img id="slider" src="assets/img/product-1/slide-1-lg.jpg" />
+            <img id="slider" src="./assets/img/product-1/slide-1-lg.jpg" />
             <p>fhghjgjkhj</p>
-        <img class="minislider1" src="../assets/img/product-1/slide-1-md.jpg" />
+        <img class="minislider1" src="./assets/img/product-1/slide-1-md.jpg" />
         <img class="minislider2" id="noneminislider2" src="../assets/img/product-1/slide-2-md.jpg" />
-        <img class="minislider3" src="../assets/img/product-1/slide-3-md.jpg" />
-        <img class="minislider4" src="../assets/img/product-1/slide-4-md.jpg" />
-        <img class="minislider5" src="../assets/img/product-1/slide-5-md.jpg" />
+        <img class="minislider3" src="./assets/img/product-1/slide-3-md.jpg" />
+        <img class="minislider4" src="./assets/img/product-1/slide-4-md.jpg" />
+        <img class="minislider5" src="./assets/img/product-1/slide-5-md.jpg" />
         </div>
 
         <div class="description">
@@ -75,4 +75,4 @@
 
 
 </section>
-<script src="../js/presentation.js"></script>
+<script src="./js/presentation.js"></script>
