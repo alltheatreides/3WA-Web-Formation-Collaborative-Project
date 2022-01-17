@@ -29,6 +29,7 @@ window.onclick = function (event) {
 
 //-----------------------------Panier-----------------------------
 //----------------------------------------------------------------
+// TODO florian doit mieux documenter son code
 
 let modal2 = document.getElementById("myModal2");
 let btn2 = document.getElementById("myBtn2");
