@@ -26,7 +26,6 @@
 
 </head>
 <body>
-   <h1>Hello world</h1>
    <!-- Attention la nav doit être inclue dans le header !  -->
    <?php include './inc/header.php'?>
 
