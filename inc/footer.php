@@ -14,7 +14,7 @@
         <section class="apropos">
             <h3>Moyen de paiement</h3>
             <div class="carte">
-                <img src="./img/paiements.JPG" alt="carte bancaire">
+                <img src="./assets/img/paiements.JPG" alt="carte bancaire">
             </div>
         </section>
 
