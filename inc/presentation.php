@@ -1,5 +1,5 @@
 
-<section class "presentation">
+<section class="presentation">
     <h2>Présentation</h2>
     <p class="keywords">
         <span>1920 x 1080 pixels</span>
@@ -15,18 +15,13 @@
         <img src="../img/brand-1/logo-lg.png" />
     </div>
     <div class="tv">
-        <div class "slider">
+        <div class="slider">
             <img id="slider" src="../img/product-1/slide-1-lg.jpg" />
             <p>fhghjgjkhj</p>
-            <img class="minislider" src="../img/product-1/slide-1-md.jpg" />
-            <img class="minislider" src="../img/product-1/slide-2-md.jpg" />
-            <img class="minislider" src="../img/product-1/slide-3-md.jpg" />
-            <img class="minislider" src="../img/product-1/slide-4-md.jpg" />
-            <img class="minislider" src="../img/product-1/slide-5-md.jpg" />
 
         </div>
 
-        <div class "description">
+        <div class="description">
             <div class="panier">
                 <div class="panierAndPrice">
                     <div class="price">
@@ -46,6 +41,7 @@
                     <p>garantie 2 années vendeur</p>
 
                 </div>
+
                 <article>
                     <p>Un écran 23,8" Full HD et sans bords; c'est sûrement votre futur moniteur pour la maison ou le bureau. AOC vous propose le 24B1XHS, un produit élégant au look doté d'une dalle VA avec un temps de réponse rapide de 7 ms en résolution
                         1920 x 1080 pixels. Cet écran WLED très fonctionnel offre un contenu avec un fréquence de 60 Hz, idéal pour tous les usages du quotidien</p>
@@ -66,7 +62,19 @@
 
             </div>
 
-
         </div>
+    </div>
+
+    <div class="slider">
+        <img class="minislider1" src="../img/product-1/slide-1-md.jpg" />
+        <img class="minislider2" src="../img/product-1/slide-2-md.jpg" />
+        <img class="minislider3" src="../img/product-1/slide-3-md.jpg" />
+        <img class="minislider4" src="../img/product-1/slide-4-md.jpg" />
+        <img class="minislider5" src="../img/product-1/slide-5-md.jpg" />
+
+    </div>
+
+
+
 </section>
 
