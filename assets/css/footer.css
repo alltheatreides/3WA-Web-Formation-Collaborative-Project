@@ -1,0 +1,53 @@
+footer {
+    background-image: url(../img/footer.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.navFooter {
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    margin: auto;
+    background-color:#e2f7ff;
+    color:#4f7b96;
+    padding:1.5rem;
+}
+  
+.navFooter a {
+    text-decoration:none;
+}
+ .informations {
+         display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 800px;
+    margin: 0 auto;
+    
+ }
+ 
+ .apropos {
+     display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    align-items: center;
+    justify-content: center;
+    padding:4rem;
+    color:#fff;
+ }
+ 
+ .apropos a {
+    
+    color:#fff;
+ }
+ 
+ 
+ 
+ .carte img {
+   max-width:200px;
+ }
+ .license {
+     color:#fff;
+     text-align:center;
+     padding:2rem;
+ }
