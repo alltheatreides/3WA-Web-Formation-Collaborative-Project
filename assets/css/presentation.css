@@ -18,15 +18,35 @@
     max-width:100px;
 }
 #slider {
-     max-width:600px;
+     max-width:900px;
 }
 #slider:hover {
     
 }
-.minislider {
+.minislider1 {
     max-width:150px;
 }
+.minislider2
+ {
+    max-width:150px;
+}
+#noneminislider2 {
+    display:none;
+}
 
+
+.minislider3 {
+    max-width:150px;
+}
+.minislider4 {
+    max-width:150px;
+}
+.minislider4 {
+    max-width:150px;
+}
+.minislider5 {
+    max-width:150px;
+}
 .panier {
     background: #f1f1f1;
 }
