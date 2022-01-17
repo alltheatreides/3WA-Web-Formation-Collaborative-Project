@@ -1,0 +1,263 @@
+/* ******************************* */
+/* GENERIC CLASSES HEADER START */
+/* ******************************* */
+
+header {
+    background-image: url(../img/header.jpg);
+    background-position: center center;
+    background-size: cover;
+    height: auto;
+    padding-bottom:2rem;
+}
+
+header .display {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 4rem;
+    background-color: var(--backgroundColorLightMode);
+}
+
+header .display a {
+    text-decoration: none;
+    color: var(--linkColorLightMode);
+}
+
+header .display a:hover {
+    color: var(--linkHoverColorLightMode);
+}
+
+header .flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 3rem 0;
+    color: var(--headerTxtColorLightMode);
+}
+
+header .logo {
+    display: flex;
+}
+
+header img {
+
+    max-width: 40%;
+    height: auto;
+}
+
+.text-logo {
+    display: block;
+    padding-left: 1.5rem;
+
+}
+
+h1 {
+    font-size: 2.5rem;
+    color: var(--headerTxtColorLightMode);
+}
+
+.text-logo p {
+    font-size: 1.1rem;
+}
+
+header form {
+    display: flex;
+    align-items: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    border: 2px solid white;
+    border-radius: 50px;
+    padding: 1.5rem 4rem;
+    align-self: center;
+    width: 50%;
+    margin-left: 0.5rem;
+}
+
+header form input {
+    background: transparent;
+    color: var(--headerTxtColorLightMode);
+    margin-right: 2rem;
+}
+
+header form input:focus {
+    /*outline:none; */
+    border:2px solid var(--borderLGColorLightMode);
+}
+
+header form input:hover {
+    border: none;
+}
+
+header input::placeholder {
+    color: var(--headerTxtColorLightMode);
+    font-size: 1.2rem;
+}
+
+header select {
+    color: var(--headerTxtColorLightMode);
+    background: transparent;
+    font-size: 1.2rem;
+    appearance: none;
+    margin: 0px 2rem;
+}
+
+header select:focus {
+    color: var(--textColorLightMode);
+    outline: none;
+}
+
+.fa-chevron-right {
+    font-size: 1.2rem;
+    color: var(--headerTxtColorLightMode);
+}
+
+.fa-search {
+    font-size: 2.5rem;
+    color: var(--headerTxtColorLightMode);
+    margin-left: 2rem;
+}
+
+.account {
+    display: flex;
+    justify-content: center;
+}
+
+header .shooping {
+    text-align: center;
+    padding: 1rem 0;
+    margin-left: 2rem;
+
+}
+
+header .shooping a {
+    text-decoration: none;
+    color: var(--headerTxtColorLightMode);
+}
+
+.fa-user {
+    font-size: 3rem;
+
+}
+
+.fa-shopping-basket {
+    font-size: 3rem;
+
+}
+
+.account p {
+    margin: 0;
+}
+
+/* ******************************* */
+/* GENERIC CLASSES END */
+/* ******************************* */
+
+/* ******************************* */
+/* RESPONSIVE BREAK POINTS HEADER START */
+/* ******************************* */
+
+/* Desktop first */
+
+
+/* tablette second */
+@media screen and (max-width: 960px) {
+    
+    header .container  {
+        width:100%;
+    }
+    
+    header .display {
+        padding: 0 2rem;
+    }
+    
+    header .flex {
+        justify-content: space-between;
+        padding: 0 16rem;
+    }
+    
+    header form {
+        display:none;
+    }
+
+    header .logo  {
+        display: block;
+        text-align:center;
+    }
+    
+    .text-logo p {
+        font-size: 1.7rem;
+        margin-top: 10px;
+    }
+    
+    h1 {
+        margin: 0.8rem;
+        font-size: 3rem;
+    }
+    
+    header .display p {
+        font-size: 1.4rem;
+    }
+    
+}
+
+/* mobile third */
+@media screen and (max-width: 480px) {
+    
+    header .display {
+        display:block;
+        text-align:center;
+        padding-bottom:0.5rem;
+    }
+    
+    header img {
+        max-width: 23%;
+        height: auto;
+    }
+    
+    h1 {
+        margin: 0.8rem;
+        font-size: 4.5rem;
+        margin: 2.5rem 0;
+    }
+    
+    header .flex {
+        display:block;
+        text-align:center;
+        padding: 0;
+    }
+    
+    header .logo {
+        text-align:center;
+        padding:0.5rem;
+    }
+    
+    .text-logo p {
+        text-align : center;
+        font-size: 2.5rem;
+    }
+    
+    header .shooping {
+        text-align: center;
+        padding: 1rem 0;
+        margin: 0 2.5rem;
+    }
+    
+    .fa-shopping-basket {
+        font-size: 4rem;
+    }
+    
+    .fa-user {
+        font-size: 4rem;    
+    }
+    
+    .account p {
+        margin: 0.7rem 0;
+        font-size: 2.1rem;
+    }
+    
+    header .display p {
+        font-size:2.2rem;
+    }
+    
+}
+/* ******************************* */
+/* RESPONSIVE BREAK POINTS HEADER END */
+/* ******************************* */
